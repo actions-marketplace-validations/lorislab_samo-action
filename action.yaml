@@ -1,0 +1,9 @@
+name: 'Samo build utility'
+description: 'Samo build project, helm and docker utility.'
+author: 'andrejpetras'
+branding:
+  icon: edit
+  color: blue
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/lorislab/samo:3.1.0"
