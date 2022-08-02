@@ -4,6 +4,10 @@ author: 'andrejpetras'
 branding:
   icon: edit
   color: blue
+outputs:
+  stdout: # stdout of output
+    description: 'The command output'  
 runs:
   using: "docker"
-  image: "docker://ghcr.io/lorislab/samo:3.1.0"
+  image: "Dockerfile"
+  entrypoint: "/entrypoint.sh"
